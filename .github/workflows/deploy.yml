@@ -24,11 +24,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install myst-nb[render]
+          pip install myst-nb
+          # Verify myst is installed and in PATH
+          which myst
+          myst --version
           
       - name: Build with MyST
         run: |
-          python -m myst build --html
+          myst build --html
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
