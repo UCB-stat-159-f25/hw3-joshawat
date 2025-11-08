@@ -10,8 +10,10 @@ project:
 site:
   template: book-theme
   nav:
-    - file: README.md
-    - file: LOSC_Event_tutorial.ipynb
+    - title: Home
+      url: README.md
+    - title: LIGO Tutorial
+      url: LOSC_Event_tutorial.ipynb
   
 build:
   output: _build
