@@ -12,3 +12,8 @@ dependencies:
   - matplotlib=3.9
   - scipy=1.13
   - ipykernel=6.29
+  - librosa        
+  - jupyter        
+  - pip
+  - pip:
+    - myst-nb      
