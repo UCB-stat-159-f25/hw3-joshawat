@@ -25,3 +25,13 @@ def test_write_wavfile_creates_file():
     # Clean up
     if os.path.exists(test_filename):
         os.remove(test_filename)
+
+def test_reqshift_returns_array():
+    """Test that reqshift returns numpy array with correct shape"""
+    sample_rate = 4096
+    data = np.random.random(4096)  # 1 second of random data
+    fshift = 100
+    
+    result = reqshift(data, fshift=fshift, sample_rate=sample_rate)
+    assert isinstance(result, np.ndarray)
+    assert result.shape == data.shape
