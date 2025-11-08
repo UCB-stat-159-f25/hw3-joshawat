@@ -1,0 +1,41 @@
+AI Tools Usage Documentation for Homework 3
+
+Tools Used: ChatGPT (this conversation)
+
+Areas where AI assistance was used:
+
+1. Project Structure Setup
+   - Guidance on organizing directories (data/, figures/, audio/)
+   - Help with updating notebook file paths
+
+2. Python Packaging
+   - Assistance creating pyproject.toml file
+   - Debugging package installation issues
+   - Dependency management guidance
+
+3. Testing
+   - Help writing pytest tests for readligo.py and utils.py
+   - Test structure and best practices
+
+4. Code Refactoring
+   - Moving functions from notebook to utils.py
+   - Import structure guidance
+   - Function organization
+
+5. MyST Documentation
+   - Configuration file setup (myst.yml)
+   - GitHub Actions workflow debugging
+   - Deployment troubleshooting
+
+6. Makefile
+   - Creating appropriate targets for Python project
+
+7. General Debugging
+   - Error message interpretation
+   - Troubleshooting various technical issues
+
+
+AI provided code examples, debugging help, and best practices guidance while I implemented the actual solutions.
+
+Note: All code was written by me with AI providing guidance, examples, and troubleshooting assistance.
+EOF
