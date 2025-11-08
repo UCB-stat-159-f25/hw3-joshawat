@@ -1,22 +1,27 @@
 version: 1
+
 project:
   title: "LIGO Analysis"
   authors:
     - name: "Ligo Scientific Collaboration (LSC)"
-    - name: "Joshua Gonzales"  
+    - name: "Joshua Gonzales"
   github: https://github.com/UCB-stat-159-f25/hw3-joshawat
   binder: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-joshawat/main
-  
+
 site:
   template: book-theme
   nav:
-  - README.md
-  - LOSC_Event_tutorial.ipynb
-  
-build:
+    - title: "Home"
+      url: README.md
+    - title: "Notebook"
+      url: LOSC_Event_tutorial.ipynb
+
+# Optional local settings (ignored by MyST, but kept for your notes)
+_build:
   output: _build
   exclude_patterns: ['env/**', '.github/**']
-  
-jupyter:
+
+_jupyter:
   kernels:
     default: python3
+
