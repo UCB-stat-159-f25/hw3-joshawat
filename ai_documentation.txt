@@ -12,6 +12,7 @@ Areas where AI assistance was used:
    - Assistance creating pyproject.toml file
    - Debugging package installation issues
    - Dependency management guidance
+   - environment.yml debugging and optimization
 
 3. Testing
    - Help writing pytest tests for readligo.py and utils.py
