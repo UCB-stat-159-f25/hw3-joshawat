@@ -1,7 +1,13 @@
 .PHONY: env html clean
 
 env:
-	conda env create -f environment.yml || conda env update -f environment.yml
+	@if conda env list | grep -q "ligo-env"; then \
+		echo "Updating existing environment..."; \
+		conda env update -f environment.yml; \
+	else \
+		echo "Creating new environment..."; \
+		conda env create -f environment.yml; \
+	fi
 
 html:
 	myst build --html
