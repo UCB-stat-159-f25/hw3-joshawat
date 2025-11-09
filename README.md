@@ -11,6 +11,21 @@ This repository is a class exercise that restructures the original LIGO code for
 ## MyST Documentation
 View the interactive documentation: [https://ucb-stat-159-f25.github.io/hw3-joshawat/](https://ucb-stat-159-f25.github.io/hw3-joshawat/)
 
-## Installation
+## Project Structure
+- `ligotools/` - Python package with LIGO analysis utilities
+  - `readligo.py` - Functions for reading LIGO data files
+  - `utils.py` - Signal processing utilities (whitening, audio, etc.)
+  - `tests/` - Unit tests for the package
+- `data/` - LIGO gravitational wave data files
+- `figures/` - Generated plots and visualizations
+- `audio/` - Generated audio files from gravitational wave signals
+- `LOSC_Event_tutorial.ipynb` - Main analysis notebook
+
+## Installation & Usage
+
+### Using Makefile (recommended):
 ```bash
-pip install -e .
+make env    # Create conda environment
+conda activate ligo
+make html   # Build documentation
+make clean  # Clean generated files
