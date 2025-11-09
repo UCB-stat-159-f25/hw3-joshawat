@@ -1,6 +1,6 @@
 AI Tools Usage Documentation for Homework 3
 
-Tools Used: ChatGPT (this conversation)
+Tools Used: ChatGPT
 
 Areas where AI assistance was used:
 
@@ -38,4 +38,3 @@ Areas where AI assistance was used:
 AI provided code examples, debugging help, and best practices guidance while I implemented the actual solutions.
 
 Note: All code was written by me with AI providing guidance, examples, and troubleshooting assistance.
-EOF
