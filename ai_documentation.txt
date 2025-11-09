@@ -1,6 +1,6 @@
 AI Tools Usage Documentation for Homework 3
 
-Tools Used: ChatGPT
+Tools Used: ChatGPT   
 
 Areas where AI assistance was used:
 
